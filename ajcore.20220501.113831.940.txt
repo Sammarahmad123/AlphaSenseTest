@@ -1,0 +1,66 @@
+---- AspectJ Properties ---
+AspectJ Compiler 1.9.6 built on Tuesday Jul 21, 2020 at 13:30:08 PDT
+---- Dump Properties ---
+Dump file: ajcore.20220501.113831.940.txt
+Dump reason: org.aspectj.weaver.BCException
+Dump on exception: true
+Dump at exit condition: abort
+---- Exception Information ---
+---- System Properties ---
+java.specification.version=17
+sun.jnu.encoding=UTF-8
+java.class.path=/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA CE.app/Contents/plugins/testng/lib/testng-rt.jar:/Users/ay54406/Downloads/AlphaSenseTest/target/test-classes:/Users/ay54406/Downloads/AlphaSenseTest/target/classes:/Users/ay54406/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/ay54406/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/ay54406/.m2/repository/io/appium/java-client/7.4.1/java-client-7.4.1.jar:/Users/ay54406/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/ay54406/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/ay54406/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/ay54406/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ay54406/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ay54406/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ay54406/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ay54406/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/ay54406/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/ay54406/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/ay54406/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/ay54406/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/ay54406/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/ay54406/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/ay54406/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/ay54406/.m2/repository/org/springframework/spring-context/5.3.1/spring-context-5.3.1.jar:/Users/ay54406/.m2/repository/org/springframework/spring-aop/5.3.1/spring-aop-5.3.1.jar:/Users/ay54406/.m2/repository/org/springframework/spring-beans/5.3.1/spring-beans-5.3.1.jar:/Users/ay54406/.m2/repository/org/springframework/spring-core/5.3.1/spring-core-5.3.1.jar:/Users/ay54406/.m2/repository/org/springframework/spring-jcl/5.3.1/spring-jcl-5.3.1.jar:/Users/ay54406/.m2/repository/org/springframework/spring-expression/5.3.1/spring-expression-5.3.1.jar:/Users/ay54406/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/ay54406/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/ay54406/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/ay54406/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/ay54406/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/ay54406/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/ay54406/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/ay54406/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/ay54406/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/ay54406/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/ay54406/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ay54406/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ay54406/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/ay54406/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/ay54406/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ay54406/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/ay54406/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ay54406/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ay54406/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/ay54406/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/ay54406/.m2/repository/io/qameta/allure/allure-testng/2.17.3/allure-testng-2.17.3.jar:/Users/ay54406/.m2/repository/io/qameta/allure/allure-java-commons/2.17.3/allure-java-commons-2.17.3.jar:/Users/ay54406/.m2/repository/io/qameta/allure/allure-model/2.17.3/allure-model-2.17.3.jar:/Users/ay54406/.m2/repository/io/qameta/allure/allure-test-filter/2.17.3/allure-test-filter-2.17.3.jar
+java.vm.vendor=Oracle Corporation
+sun.arch.data.model=64
+idea.test.cyclic.buffer.size=1048576
+java.vendor.url=https://java.oracle.com/
+user.timezone=Europe/Tallinn
+java.vm.specification.version=17
+os.name=Mac OS X
+sun.java.launcher=SUN_STANDARD
+user.country=EE
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/lib
+sun.java.command=com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket53444 @w@/private/var/folders/pg/mfjw6vhs2sdgr_1s8547h1yw0000gr/T/idea_working_dirs_testng.tmp -temp /private/var/folders/pg/mfjw6vhs2sdgr_1s8547h1yw0000gr/T/idea_testng.tmp
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+jdk.debug=release
+sun.cpu.endian=little
+user.home=/Users/ay54406
+user.language=en
+java.specification.vendor=Oracle Corporation
+java.version.date=2021-10-19
+java.home=/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home
+file.separator=/
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+java.runtime.version=17.0.1+12-LTS-39
+user.name=ay54406
+path.separator=:
+os.version=12.0.1
+java.runtime.name=Java(TM) SE Runtime Environment
+file.encoding=UTF-8
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vendor.url.bug=https://bugreport.java.com/bugreport/
+java.io.tmpdir=/var/folders/pg/mfjw6vhs2sdgr_1s8547h1yw0000gr/T/
+java.version=17.0.1
+user.dir=/Users/ay54406/Downloads/AlphaSenseTest
+os.arch=x86_64
+java.vm.specification.name=Java Virtual Machine Specification
+native.encoding=UTF-8
+java.library.path=/Users/ay54406/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+java.vm.info=mixed mode, sharing
+java.vendor=Oracle Corporation
+java.vm.version=17.0.1+12-LTS-39
+sun.io.unicode.encoding=UnicodeBig
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+java.class.version=61.0
+---- Command Line ---
+Empty
+---- Full Classpath ---
+Empty
+---- Compiler Messages ---
+Empty
