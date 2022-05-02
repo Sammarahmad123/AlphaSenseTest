@@ -31,3 +31,5 @@ After test completion, run the below command to launch the allure test report
 allure serve
 ``` 
 
+After the test execution, screenshot are visible in the report for only failed cases.
+
